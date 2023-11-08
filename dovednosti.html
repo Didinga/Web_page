@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Mé dovednosti, mezi které patří programování v Pythonu a HTML" />
+    <meta name="keywords" content="programátor, didi, dovednosti, html, css, python, sql, git" />
+    <meta name="author" content="Didi" />
+    <link rel="shortcut icon" href="pictures/ikona.ico" />
+    <link rel="stylesheet" href="styl.css" type="text/css" />
+    <title>Skills</title>
+
+    <style>
+        #skills {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #skills div {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 12px;
+        }
+
+        #skills div div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #skills div div p {
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <h1>Didinga<span>Omodi</span></h1>
+            <small>webdeveloper</small>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="omne.html">About</a></li>
+                <li class="aktivni"><a href="dovednosti.html">Skills</a></li>
+                <li><a href="reference.html">Portfolio</a></li>
+                <li><a class="kontakt-tlacitko" href="kontakt.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <header>
+            <h1>Skills</h1>
+        </header>
+
+        <section>
+            <div id="skills">
+                    <div>
+                        <img src="pictures/html.png" alt="HTML" class="icon"/>
+                        <div>
+                            <h2>HTML</h2>
+                            <p>I'm new to HTML and can create simple web pages like these.</p>
+                        </div>
+    
+                    </div>
+                    <div>
+                        <img src="pictures/css-3.png" alt="CSS3" class="icon"/>
+                        <div>
+                            <h2>CSS3</h2>
+                            <p>I'm new to CSS and can create simple web pages like these.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <footer>
+        Designed by Didinga Omodi in 2023
+    </footer>
+</body>
+
+</html>
