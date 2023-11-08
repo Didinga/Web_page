@@ -95,6 +95,10 @@ img {
     transition: transform 0.3s ease; 
 }
 
+img:hover {
+    transform: scale(1.1); /* Zvětší obrázek o 10 % při hover efektu */
+}
+
 body > header {
     height: 100px;
     width: 100%;
