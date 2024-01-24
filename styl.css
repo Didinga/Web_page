@@ -188,6 +188,21 @@ article section .links {
     display: flex;
 }
 
+.article-icons .links img {
+    width: 30px;
+    height: auto;
+}
+
+.article-icons .links img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article-icons .links.linkedin img {
+    width: 30px; 
+    height: auto;
+}
+
 .links {
     margin-right: 10px;
 }
@@ -195,6 +210,17 @@ article section .links {
 .links:last-child {
     margin-right: 0;
 }
+
+.article-icons .links {
+    display: flex;
+}
+
+.article-icons .links img {
+    width: 30px;
+    height: auto;
+    max-width: 100%;
+}
+
 
 footer {
     box-sizing: border-box;
