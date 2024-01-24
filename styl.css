@@ -189,7 +189,7 @@ nav ul a:hover, .aktivni a {
 }
 
 .links a {
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }
 
