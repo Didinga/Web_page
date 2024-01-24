@@ -189,7 +189,8 @@ nav ul a:hover, .aktivni a {
 }
 
 .links a {
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 .links img {
