@@ -181,21 +181,12 @@ nav ul a:hover, .aktivni a {
 }
 
 .links {
-    display: flex;
-    justify-content: center;
-    gap: 20px; 
-    margin: 20px 0; 
-    font-size: inherit; 
+    display: inline-block; /* Set the display property to inline-block */
+    margin-right: 20px; /* Add some margin to separate the icons */
 }
 
-.links a {
-    display: inline-flex;
-    align-items: center;
-}
-
-.links img {
-    width: 60px;
-    height: auto;
+.links:last-child {
+    margin-right: 0;
 }
 
 footer {
