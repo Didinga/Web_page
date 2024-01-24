@@ -180,9 +180,16 @@ nav ul a:hover, .aktivni a {
     border: 0;
 }
 
+article section .links {
+    display: flex;
+}
+
+.article-icons {
+    display: flex;
+}
+
 .links {
-    display: inline-block; /* Set the display property to inline-block */
-    margin-right: 20px; /* Add some margin to separate the icons */
+    margin-right: 10px;
 }
 
 .links:last-child {
@@ -203,3 +210,4 @@ footer a {
     color: white;
     text-decoration: none;
 }
+
