@@ -181,8 +181,16 @@ nav ul a:hover, .aktivni a {
 }
 
 .links {
-    font-size: 40px;
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Rovnoměrný rozestup mezi ikonami */
+    margin: 20px 0; /* Větší odsazení shora a zdola */
+    font-size: inherit; /* Převzít velikost písma z rodičovského prvku (body) */
+}
+
+.links img {
+    width: 60px;
+    height: 60px;
 }
 
 footer {
