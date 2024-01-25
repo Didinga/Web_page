@@ -1,3 +1,5 @@
+
+
 body {
     font: 16px Roboto;
     background: #2e2e2e;
@@ -11,7 +13,93 @@ body {
     min-width: 960px;
 }
 
-header {
+#omne {
+    background:#c00
+}
+
+article {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 80px 50px;
+    flex: 1;
+}
+
+#reference img {
+    max-width: 100%;
+    height: auto;
+}
+
+.domu-article {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px max-content;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+article h1 {
+    margin: 0;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content;
+    border-bottom: 4px solid #000000;
+}
+
+article h2 {
+    font-size: 2em;
+}
+
+article header {
+    height: 100px;
+}
+
+article section p {
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+}
+
+article section a {
+    color: #2f00ff;
+}
+
+.domu-article img {
+    width: 371px;
+    margin-top: -26px;
+    margin-left: 90px;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    grid-column: 2;
+    box-shadow: 20px 20px 5px #ffffff;
+    border: 5px double #ffffff;
+}
+
+.centrovany {
+    text-align: center;
+}
+
+#skills img.icon {
+    width: 128px;
+}
+
+img {
+    max-width: 100%; 
+    transition: transform 0.3s ease; 
+}
+
+img:hover {
+    transform: scale(1.1); 
+}
+
+body > header {
     height: 100px;
     width: 100%;
     background: #000000;
@@ -68,7 +156,7 @@ nav ul li {
     font-size: 1em;
     line-height: 4.3em;
 }
-
+    
 nav ul a {
     color: white;
     padding: 8px 0;
@@ -92,20 +180,49 @@ nav ul a:hover, .aktivni a {
     border: 0;
 }
 
-article {
-    margin: 0 auto;
-    max-width: 960px;
-    padding: 80px 50px;
-    flex: 1;
+article section .links {
+    display: flex;
 }
 
-article header {
-    height: 100px;
+.article-icons {
+    display: flex;
 }
 
-article section p {
-    margin-bottom: 1.5em;
-    line-height: 1.8em;
+.article-icons .links img {
+    width: 60px;
+    height: auto;
+}
+
+.article-icons .links img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article-icons .links.linkedin img {
+    width: 60px; 
+    height: auto;
+}
+
+.links {
+    margin-right: 10px;
+}
+
+.links:last-child {
+    margin-right: 0;
+}
+
+.article-icons .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-icons .links img {
+    width: 60px;
+    height: auto;
+    max-width: 100%;
+    display: block; 
+    margin: 0 auto; 
 }
 
 footer {
@@ -121,14 +238,4 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-}
-
-img:hover {
-    transform: scale(1.1);
 }
