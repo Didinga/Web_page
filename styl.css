@@ -213,6 +213,7 @@ article section .links {
 
 .article-icons .links {
     display: flex;
+    justify-content: center;
 }
 
 .article-icons .links img {
