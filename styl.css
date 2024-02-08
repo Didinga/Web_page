@@ -74,13 +74,16 @@ article section a {
 .domu-article img {
     width: 371px;
     margin-top: -26px;
-    margin-left: 90px;
+    margin-left: auto; /* Centrování obrázku */
+    margin-right: auto; /* Centrování obrázku */
     grid-row-start: 1;
     grid-row-end: span 2;
     grid-column: 2;
     box-shadow: 20px 20px 5px #ffffff;
     border: 5px double #ffffff;
+    border-radius: 50%; /* Kulatý tvar obrázku */
 }
+
 
 .centrovany {
     text-align: center;
