@@ -165,11 +165,11 @@ nav ul a {
 }
 
 nav ul a:hover, .aktivni a {
-    border-bottom: 2px solid #1100ff;
+    border-bottom: 2px solid #0000cd;
 }
 
 .kontakt-tlacitko {
-    background:#0004ff;
+    background:	#0000cd;
     padding: 10px 20px;
     border-radius: 20px;
 }
