@@ -3,7 +3,6 @@
 body {
     font: 16px Roboto;
     background: royal blue;
-    color: #ffffff;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
