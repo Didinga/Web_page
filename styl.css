@@ -2,7 +2,8 @@
 
 body {
     font: 16px Roboto;
-    background: royal blue;
+    background: #140e68;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -10,6 +11,7 @@ body {
     padding: 100px 0px 0px 0px;
     min-height: 100vh;
     min-width: 960px;
+;
 }
 
 #omne {
