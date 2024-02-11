@@ -80,9 +80,6 @@ article section a {
     grid-row-start: 1;
     grid-row-end: span 2;
     grid-column: 2;
-    box-shadow: 20px 20px 5px #ffffff;
-    border: 5px double #ffffff;
-    border-radius: 75%; 
 }
 
 
