@@ -75,9 +75,6 @@ article section a {
 .domu-article img {
     .domu-article img {
     width: 371px; 
-    height: 371px; 
-    object-fit: cover; 
-    object-position: center; 
     margin-top: -26px;
     margin-left: auto; 
     margin-right: auto; 
