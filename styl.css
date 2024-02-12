@@ -34,6 +34,7 @@ article {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 100px max-content;
+    align-items: center;
 }
 
 article h1,
