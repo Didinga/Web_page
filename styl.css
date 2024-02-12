@@ -23,6 +23,8 @@ article {
     max-width: 960px;
     padding: 80px 50px;
     flex: 1;
+    margin-top: 40px; 
+    margin-bottom: 40px; 
 }
 
 #reference img {
@@ -75,9 +77,8 @@ article section a {
 
 .domu-article img {
     width: 250px; 
-    margin-top: 30px;
-    margin-left: 30px; 
-    margin-right: 30px; 
+    margin-left: auto; 
+    margin-right: auto; 
     grid-row-start: 1;
     grid-row-end: span 2;
     grid-column: 2;
