@@ -1,5 +1,3 @@
-
-
 body {
     font: 16px Futura, sans-serif;
     background: #140e68;
@@ -231,4 +229,23 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+}
+
+/* Media query pro responsivní zobrazení na menších obrazovkách */
+@media only screen and (max-width: 600px) {
+    body {
+        padding-top: 100px; /* Zvýší odstup od horního okraje stránky na mobilních zařízeních */
+    }
+    article {
+        padding: 40px 20px; /* Upraví odsazení obsahu v článku na mobilních zařízeních */
+    }
+    #skills {
+        flex-direction: column; /* Na mobilních zařízeních se ikony budou zobrazovat ve sloupci */
+    }
+    .article-icons .links {
+        flex-wrap: wrap; /* Ikony budou přeskakovat pod sebe na menších obrazkách */
+    }
+    .article-icons .links img {
+        margin: 10px; /* Přidá mezery mezi ikonami na mobilních zařízeních */
+    }
 }
