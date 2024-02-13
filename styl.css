@@ -188,6 +188,7 @@ article section .links {
 
 .article-icons {
     display: flex;
+    justify-content: center;
 }
 
 .article-icons .links.linkedin img {
