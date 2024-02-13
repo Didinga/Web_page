@@ -171,8 +171,8 @@ nav ul a:hover, .aktivni a {
 
 .kontakt-tlacitko {
     background:	#0000cd;
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 0px 30px;
+    border-radius: 14px;
     display: flex;
     align-items: center;
 }
