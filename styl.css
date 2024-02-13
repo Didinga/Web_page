@@ -233,7 +233,7 @@ footer a {
 /* Media query pro responsivní zobrazení na menších obrazovkách */
 @media only screen and (max-width: 600px) {
     body {
-        padding-top: 100px; /* Zvýší odstup od horního okraje stránky na mobilních zařízeních */
+        padding-top: 40px; /* Zvýší odstup od horního okraje stránky na mobilních zařízeních */
     }
     article {
         padding: 40px 20px; /* Upraví odsazení obsahu v článku na mobilních zařízeních */
