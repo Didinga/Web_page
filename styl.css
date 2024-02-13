@@ -143,12 +143,6 @@ body > header {
     font-size: 0.85em;
 }
 
-#logo img {
-    width: 40px; /* Změní šířku ikony */
-    height: auto; /* Udrží poměr stran ikony */
-    margin-right: 10px; /* Přidá malé odsazení mezi ikonou a textem */
-}
-
 nav ul {
     margin: 0;
     list-style-type: none;
