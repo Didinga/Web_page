@@ -173,6 +173,8 @@ nav ul a:hover, .aktivni a {
     background:	#0000cd;
     padding: 10px 20px;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .kontakt-tlacitko:hover,
@@ -184,7 +186,8 @@ nav ul a:hover, .aktivni a {
 .kontakt-tlacitko img {
     width: 20px; /* Změní šířku ikony */
     height: auto; /* Udrží poměr stran ikony */
-    margin-right: 5px; /* Přidá malé odsazení mezi ikonou a textem */
+    margin-right: 10px; /* Přidá malé odsazení mezi ikonou a textem */
+    margin-left: 5px;
 }
 
 article section .links {
