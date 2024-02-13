@@ -162,7 +162,6 @@ nav ul a {
     color: white;
     padding: 8px 0;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 nav ul a:hover, .aktivni a {
