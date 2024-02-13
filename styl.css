@@ -1,7 +1,7 @@
 
 
 body {
-    font: 16px Futura;
+    font: 16px Futura, sans-serif;
     background: #140e68;
     color: #ffffff;
     display: flex;
