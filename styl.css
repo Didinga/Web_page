@@ -194,7 +194,7 @@ article section .links {
 
 .article-icons {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .article-icons .links.linkedin img {
