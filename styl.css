@@ -1,6 +1,6 @@
 body {
     font: 16px Futura, sans-serif;
-    background: #140e68;
+    background: #337ab7;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -169,7 +169,7 @@ nav ul a:hover, .aktivni a {
 }
 
 .kontakt-tlacitko {
-    background:	#0000cd;
+    background:	#337ab7;
     padding: 0px 30px;
     border-radius: 14px;
     display: flex;
